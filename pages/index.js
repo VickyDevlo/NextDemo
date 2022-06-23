@@ -12,17 +12,17 @@ export default function Home() {
       <div >
       <Carousel>
         <Carousel.Item interval={1500}>
-        <img src="https://shopinindia.co/wp-content/uploads/2021/08/abt.png" />
+        <Image src="/../public/images/banner.jpg" width={1920} height={400} />  
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-          <Image src="/public/images/img.png" width={500} height={500} />
+        <Image src="/../public/images/banner.jpg" width={1920} height={400} />
            
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-        <Image src="/public/images/img.png" width={500} height={500} />
+        <Image src="/../public/images/banner.jpg" width={1920} height={400} />
         </Carousel.Item>
         <Carousel.Item interval={1500}>
-        <Image src="/public/images/img.png" width={500} height={500} />
+        <Image src="/../public/images/banner.jpg" width={1920} height={400} />
         </Carousel.Item>
       </Carousel>
       
