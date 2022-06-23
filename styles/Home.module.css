@@ -1,10 +1,28 @@
-  
-
   .container {
     padding: 0px 2rem;
     margin: 10px;
     display: flex;
     justify-content: center;
+  }
+
+  .Section1 {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .Section1 p {
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .img {
+    border-radius: 10px;
+    border: 1px solid rgb(250, 250, 250);
+    overflow: hidden;
   }
 
   .nav ul {
@@ -19,39 +37,44 @@
     font-weight: bold;
     margin-top: 25px;
   }
-  .banner{
-    max-width:1998px;
 
-     
+  .TopHeading {
+    text-align: center;
+    text-decoration: underline;
   }
-  .info{
+
+  .info {
     width: 500px;
+    margin-top: 50px;
     font-size: 20px;
   }
-  .info h1{
-    margin-top:10px;
+
+  .info h1 {
+    margin-top: 10px;
     margin-left: -100px;
     text-decoration: underline;
   }
-    .info .address{
+
+  .info .address {
     position: absolute;
-    left: 80px;
+    left: 72px;
   }
-  
-  .mobile{
+
+
+  .mobile {
     position: relative;
     top: 50px;
     left: -201px;
   }
-  
-  
-  .mail{
+
+
+  .mail {
     position: relative;
     top: 100px;
     left: -442px;
   }
-  
 
+ /* Form css */
   .form {
     font-size: 30px;
     border-radius: 5px;
@@ -109,19 +132,21 @@
     margin-left: 5px;
     background-color: black;
   }
+
   /* About us css */
-  .para{
+  .para {
     border: 2px dotted red;
-    height:200px;
+    height: 200px;
     margin-top: 111px;
     margin-left: 66px;
     font-size: 20px;
     font-weight: bold;
     padding: 2rem;
-    display: flex; 
+    display: flex;
     width: 602px;
     text-align: center;
   }
+
   /* Footer css */
   .FooterWrapper {
     max-width: 100%;
@@ -129,12 +154,13 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top:250px;
-    color:black;
-    border-top: 1px solid rgb(122, 121, 121);    
-    
+    margin-top: 250px;
+    color: black;
+    border-top: 1px solid rgb(122, 121, 121);
+
   }
-  .footertop {  
+
+  .footertop {
     display: flex;
   }
 
@@ -145,49 +171,52 @@
     margin-bottom: 15px;
     margin-left: 15px;
   }
+
   .footmenu ul li {
     padding: 6px 0;
     list-style: none;
   }
- 
-  .MenuList{
-    color:black;
+
+  .MenuList {
+    color: black;
     margin: 10px;
   }
-  .MenuList li{
-   list-style: none;
+
+  .MenuList li {
+    list-style: none;
   }
-  .MenuList:hover{
-    color:black;
-  }
-  .MenuList h3{
+ 
+
+  .MenuList h3 {
     cursor: text;
 
   }
-  .MenuLine{
-    margin-top: -70px;
-  }
-  
-  .home{
+ 
+  .home {
     position: relative;
     top: -8px;
   }
-  .call{
+
+  .call {
     position: relative;
     top: -10px;
   }
- .mailId{
-  position: relative;
-  top: -8px;
- }
- 
-   
+
+  .mailId {
+    position: relative;
+    top: -8px;
+  }
+
+  .NotFound h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+
+  }
+
   @media (max-width: 600px) {
     .grid {
       width: 100%;
       flex-direction: column;
     }
   }
-  
-
- 
