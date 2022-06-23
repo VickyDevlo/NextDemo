@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Link from 'next/link'
-import { CallRounded, HomeRounded, MailRounded  } from '@material-ui/icons' 
+import { CallRounded, HomeRounded, MailRounded, Instagram, Facebook } from '@material-ui/icons' 
 
 export default function Footer() { 
   return (
@@ -37,14 +37,27 @@ export default function Footer() {
               <li> <CallRounded /><span className={styles.call}> +91-9845102540  </span></li>
             <li> 
                 <MailRounded />
-              <Link href='/mail'>
-               <a className={styles.mailId}> 
-               info.shopinindia@gmail.com
-               </a>
-                </Link>
-                 </li>
-              <li>  </li>
+                  <Link href='/mail'>
+                    <a className={styles.mailId}> 
+                        test@gmail.com
+                    </a>
+                  </Link>
+            </li>
             </ul>
+            <div className={styles.SocialIcons}>
+
+            <Link href="/instagram">
+              <a>
+                <Instagram />
+              </a>
+            </Link>
+            <Link href="/facebook">
+              <a>
+              <Facebook />
+              </a>
+            </Link>
+            </div>
+            
           </div>
           
         </div>

@@ -44,7 +44,7 @@
   }
 
   .info {
-    width: 500px;
+    width: 600px;
     margin-top: 50px;
     font-size: 20px;
   }
@@ -56,23 +56,24 @@
   }
 
   .info .address {
-    position: absolute;
-    left: 72px;
+    position: relative;
+    left: -108px;
   }
 
 
   .mobile {
     position: relative;
     top: 50px;
-    left: -201px;
+    left: -185px;
   }
-
-
   .mail {
     position: relative;
     top: 100px;
-    left: -442px;
+    left: -425px;
+    
   }
+
+   
 
  /* Form css */
   .form {
@@ -205,6 +206,13 @@
   .mailId {
     position: relative;
     top: -8px;
+  }
+  .SocialIcons {
+    margin-left: 45px;
+  }
+  .SocialIcons a{
+    margin: 5px;
+    color: blue;
   }
 
   .NotFound h1{
